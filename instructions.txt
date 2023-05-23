@@ -1,0 +1,9 @@
+1. Endpoint URL of your service from cloud: eg: flask endpoint hosting url & port
+2. Update the src folder endpoint : http://localhost:8888/ to ec2-aws endpoint url
+3. Update the snowflake account name in frontned code
+4. npm install -> install dependencies for Javascript
+5. npm run build -> Generates static build older
+6. pip install -r requiremnts.txt -> install dependencies
+7. python app.py -> check on which port you want to run flask app 
+if __name__ == '__main__':
+    app.run(port=80)
